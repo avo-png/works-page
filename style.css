@@ -22,6 +22,12 @@ article {
     min-height: 30%;
 }
 
+article:first-of-type {
+    background: url(https://images.unsplash.com/photo-1417533366444-43834ad6b3bb?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1475&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 a {
     text-decoration: none;
     color: #fff;
