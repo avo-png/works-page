@@ -29,6 +29,17 @@ article:first-of-type {
 }
 
 a {
-    text-decoration: none;
     color: #fff;
+    text-decoration: none;
+    font-size: 29px;
+    text-shadow: 0 0 4px #000;
+}
+
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+article:first-of-type:hover {
+    transform: scale(1.2);
 }
