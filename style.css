@@ -53,6 +53,7 @@ article:hover {
 @media (max-width: 426px) {
     article {
         width: 100%;
+        max-width: 100%;
     }
     
     main {
