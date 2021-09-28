@@ -49,3 +49,13 @@ a:hover {
 article:hover {
     transform: scale(1.2);
 }
+
+@media (max-width: 426px) {
+    article {
+        width: 100%;
+    }
+    
+    main {
+        flex-direction: column;
+    }
+}
